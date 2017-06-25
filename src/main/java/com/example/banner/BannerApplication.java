@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class BannerApplication {
-	@RequestMapping("/hello")
-	public String Hellow(){
-		return "Hello Wordl";
+	@RequestMapping("/banner")
+	public String sayHello(){
+		return "Hello Universe!";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(BannerApplication.class, args);
